@@ -1,0 +1,11 @@
+set nonumber
+noremap Y y$
+
+set ignorecase  " Default to using case insensitive searches,
+set smartcase   " unless uppercase letters are used in the regex.
+
+" Spacebar unhighlights search results.
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>"
+
+" https://github.com/skwp/dotfiles/issues/163
+let g:neocomplcache_omni_patterns['python'] = ''
