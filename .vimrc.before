@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'vim-pandoc/vim-pandoc'
+Bundle 'klen/python-mode'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 " vim-scripts repos
 Bundle 'increment.vim--Natter'
