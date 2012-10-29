@@ -1,5 +1,7 @@
 set nonumber
 noremap Y y$
+nnoremap <leader>d :NERDTreeToggle<CR>
+nnoremap <leader>n :set nonumber!<CR>
 
 set ignorecase  " Default to using case insensitive searches,
 set smartcase   " unless uppercase letters are used in the regex.
