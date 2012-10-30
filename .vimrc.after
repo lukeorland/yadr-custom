@@ -11,3 +11,5 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>"
 
 " https://github.com/skwp/dotfiles/issues/163
 let g:neocomplcache_omni_patterns['python'] = ''
+
+let NERDTreeIgnore = ['\.pyc$']
