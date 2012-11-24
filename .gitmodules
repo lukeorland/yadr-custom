@@ -1,3 +1,9 @@
-[submodule "vim/bundle/vundle"]
-	path = vim/bundle/vundle
-	url = https://github.com/gmarik/vundle.git
+[submodule "vim/bundle/increment.vim--Natter"]
+	path = vim/bundle/increment.vim--Natter
+	url = http://github.com/vim-scripts/increment.vim--Natter.git
+[submodule "vim/bundle/ViewOutput"]
+	path = vim/bundle/ViewOutput
+	url = https://github.com/vim-scripts/ViewOutput.git
+[submodule "vim/bundle/python-mode"]
+	path = vim/bundle/python-mode
+	url = http://github.com/klen/python-mode.git

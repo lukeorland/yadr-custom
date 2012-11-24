@@ -1,23 +1,4 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.yadr-custom/vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-"
-" original repos on github
-Bundle 'vim-pandoc/vim-pandoc'
-Bundle 'klen/python-mode'
-"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-" vim-scripts repos
-Bundle 'increment.vim--Natter'
-Bundle 'ViewOutput'
-" non github repos
-"Bundle 'git://git.wincent.com/command-t.git'
-
-filetype plugin indent on     " required!
+set runtimepath+=~/.yadr-custom/vim
