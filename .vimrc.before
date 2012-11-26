@@ -1,4 +1,2 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
-
 set runtimepath+=~/.yadr-custom/vim
+set exrc
