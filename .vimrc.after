@@ -1,4 +1,3 @@
-set nonumber
 noremap Y y$
 nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <leader>n :set nonumber!<CR>

@@ -1,2 +1,3 @@
+filetype off
 set runtimepath+=~/.yadr-custom/vim
 set exrc
