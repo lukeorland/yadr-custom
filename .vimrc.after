@@ -12,3 +12,8 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>"
 let g:neocomplcache_omni_patterns['python'] = ''
 
 let NERDTreeIgnore = ['\.pyc$']
+
+if has("gui_running")
+  set guifont=Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mono:h14
+  set linespace=3
+endif
