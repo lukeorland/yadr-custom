@@ -4,6 +4,6 @@
 [submodule "vim/bundle/ViewOutput"]
 	path = vim/bundle/ViewOutput
 	url = https://github.com/vim-scripts/ViewOutput.git
-[submodule "vim/bundle/python-mode"]
-	path = vim/bundle/python-mode
-	url = http://github.com/klen/python-mode.git
+#[submodule "vim/bundle/python-mode"]
+#	path = vim/bundle/python-mode
+#	url = http://github.com/klen/python-mode.git

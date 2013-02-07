@@ -1,0 +1,25 @@
+python modules that I need in my environment:
+
+REPL :
+pip install -U bpython ipython
+
+nosetests :
+pip install -U nose mock xtraceback yanc
+
+for https://github.com/nvie/vim-pyunit :
+pip install -U vim_bridge
+pip install -e "hg+https://code.google.com/p/nose-machineout/#egg=nose-machineout"
+
+# KNOWN ISSUES
+vim-pymode seems to be incompatible with yadr.
+
+I can't get the vim-pyunit thing to work.
+
+Homebrew-installed MacVim links against the apple python, not the homebrew python.
+see: https://github.com/mxcl/homebrew/issues/4339
+Homebrew-installed vim does pick up the homebrew python and all its site-packages.
+
+if you want to use YCM with homebrew-installed python, you have to use this:
+https://gist.github.com/sgrankin/4719255
+because of this: https://github.com/Valloric/YouCompleteMe/issues/18
+
