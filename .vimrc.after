@@ -16,4 +16,5 @@ let NERDTreeIgnore = ['\.pyc$']
 if has("gui_running")
   set guifont=Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mono:h14
   set linespace=3
+  highlight LineNr guibg=black
 endif
