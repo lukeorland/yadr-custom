@@ -1,0 +1,37 @@
+set guifont=Andale\ Mono:h12,Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mono:h14
+"set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
+set listchars=tab:➤\ ,trail:◦,precedes:<,extends:>
+set linespace=2
+"highlight LineNr guibg=black
+
+" ======== Glorious background toggling ========
+" https://gist.github.com/keikun17/3735615
+" requires solarizedLightLC theme from:
+"   https://raw.github.com/pearofducks/vim-powerline/develop/autoload/Powerline/Colorschemes/solarizedLightLC.vim
+" put this theme under this directory:
+"   ~/.yadr/vim/bundle/skwp-vim-powerline/autoload/Powerline/Colorschemes/
+let g:powerline_dark_theme = 'skwp'
+let g:powerline_light_theme = 'solarizedLightLC'
+
+function! EmoModeOn()
+  set background=dark
+  let g:Powerline_colorscheme = g:powerline_dark_theme
+endfunction
+
+function! EmoModeOff()
+  set background=light
+  let g:Powerline_colorscheme = g:powerline_light_theme
+endfunction
+
+function! ToggleEmoMode()
+  echo 'emo mode called'
+  if &background == "dark"
+    call EmoModeOff()
+  elseif &background == "light"
+    call EmoModeOn()
+  end
+  PowerlineReloadColorscheme
+endfunction
+
+"map <F5> :call ToggleEmoMode()<CR>
+" ==============================================
