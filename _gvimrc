@@ -2,7 +2,9 @@ set guifont=Andale\ Mono:h12,Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mo
 "set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
 set listchars=tab:➤\ ,trail:◦,precedes:<,extends:>
 set linespace=2
-"highlight LineNr guibg=black
+highlight LineNr guibg=black
+"highlight Visual  guifg=White guibg=Magenta gui=none
+highlight Visual  guifg=White guibg=Magenta
 
 " ======== Glorious background toggling ========
 " https://gist.github.com/keikun17/3735615
@@ -16,11 +18,13 @@ let g:powerline_light_theme = 'solarizedLightLC'
 function! EmoModeOn()
   set background=dark
   let g:Powerline_colorscheme = g:powerline_dark_theme
+  highlight Visual  guifg=White guibg=Magenta
 endfunction
 
 function! EmoModeOff()
   set background=light
   let g:Powerline_colorscheme = g:powerline_light_theme
+  highlight Visual  guifg=White guibg=Magenta
 endfunction
 
 function! ToggleEmoMode()
@@ -31,6 +35,7 @@ function! ToggleEmoMode()
     call EmoModeOn()
   end
   PowerlineReloadColorscheme
+  highlight Visual  guifg=White guibg=Magenta
 endfunction
 
 "map <F5> :call ToggleEmoMode()<CR>
