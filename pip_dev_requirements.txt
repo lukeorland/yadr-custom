@@ -1,0 +1,13 @@
+# virtualenv --distribute --no-site-packages ~/.yadr-custom/pip_dev_requirements.txt
+# pip install -U --distribute --no-site-packages
+distribute
+nose
+yanc
+xtraceback
+nose-cov
+pinocchio
+mock
+pygments
+Pep8
+Pyflakes
+pip-tools
