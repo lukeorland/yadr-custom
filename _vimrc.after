@@ -1,7 +1,9 @@
 noremap Y y$
 nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <leader>n :set nonumber!<CR>
+unmap <leader>b
 
+set sidescrolloff=1
 set ignorecase  " Default to using case insensitive searches,
 set smartcase   " unless uppercase letters are used in the regex.
 
@@ -9,12 +11,6 @@ set smartcase   " unless uppercase letters are used in the regex.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>"
 
 " https://github.com/skwp/dotfiles/issues/163
-let g:neocomplcache_omni_patterns['python'] = ''
+"let g:neocomplcache_omni_patterns['python'] = ''
 
 let NERDTreeIgnore = ['\.pyc$']
-
-if has("gui_running")
-  set guifont=Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mono:h14
-  set linespace=3
-  highlight LineNr guibg=black
-endif
