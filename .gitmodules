@@ -4,18 +4,18 @@
 [submodule "vim/bundle/ViewOutput"]
 	path = vim/bundle/ViewOutput
 	url = https://github.com/vim-scripts/ViewOutput.git
-[submodule "vim/bundle/pyflakes"]
-	path = vim/bundle/pyflakes
-	url = https://github.com/mitechie/pyflakes-pathogen.git
+#[submodule "vim/bundle/pyflakes"]
+#	path = vim/bundle/pyflakes
+#	url = https://github.com/mitechie/pyflakes-pathogen.git
 [submodule "vim/bundle/pydoc"]
 	path = vim/bundle/pydoc
 	url = https://github.com/fs111/pydoc.vim.git
-[submodule "vim/bundle/pep8"]
-	path = vim/bundle/pep8
-	url = https://github.com/vim-scripts/pep8.git
-[submodule "vim/bundle/pytest"]
-	path = vim/bundle/pytest
-	url = https://github.com/alfredodeza/pytest.vim.git
+#[submodule "vim/bundle/pep8"]
+#	path = vim/bundle/pep8
+#	url = https://github.com/vim-scripts/pep8.git
+#[submodule "vim/bundle/pytest"]
+#	path = vim/bundle/pytest
+#	url = https://github.com/alfredodeza/pytest.vim.git
 [submodule "vim/bundle/makegreen"]
 	path = vim/bundle/makegreen
 	url = https://github.com/reinh/vim-makegreen
@@ -25,3 +25,12 @@
 [submodule "vim/bundle/ropevim"]
 	path = vim/bundle/ropevim
 	url = https://github.com/sontek/rope-vim.git
+[submodule "vim/bundle/vim-flake8"]
+	path = vim/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "vim/bundle/vim-pyunit"]
+	path = vim/bundle/vim-pyunit
+	url = https://github.com/nvie/vim-pyunit.git
+[submodule "vim/bundle/nose.vim"]
+	path = vim/bundle/nose.vim
+	url = https://github.com/lambdalisue/nose.vim.git

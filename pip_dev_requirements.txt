@@ -1,13 +1,22 @@
-# virtualenv --distribute --system-site-packages venv && source venv/bin/activate
-# pip install -U -r ~/.yadr-custom/pip_dev_requirements.txt
+# mkvirtualenv <project-name>
+# pip install -U -r ~/.yadr-custom/pip_dev_requirements.txt -r requirements.txt
+coverage
 distribute
-nose
-yanc
-xtraceback
-nose-cov
-pinocchio
+#grin
+#http://douglatornell.ca/software/python/Nosy-1.0.tar.gz
+flake8
+ipdb
+ipython
 mock
-pygments
-Pep8
-Pyflakes
+nose
+nose-cov
+-e hg+https://code.google.com/p/nose-machineout/#egg=nose-machineout
+nosy
+pastescript
+pinocchio
 pip-tools
+pygments
+sphinx
+vim_bridge
+xtraceback
+yanc
