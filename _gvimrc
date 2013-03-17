@@ -1,8 +1,7 @@
 set guifont=Andale\ Mono:h12,Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mono:h14
 "set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
-set listchars=tab:➤\ ,trail:◦,precedes:<,extends:>
-set linespace=2
-highlight LineNr guibg=black
+set listchars=tab:↦\ ,trail:◦,precedes:˂,extends:˃
+set linespace=3
 "highlight Visual  guifg=White guibg=Magenta gui=none
 highlight Visual  guifg=White guibg=Magenta
 
