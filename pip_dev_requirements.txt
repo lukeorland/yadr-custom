@@ -1,5 +1,5 @@
-# virtualenv --distribute --no-site-packages ~/.yadr-custom/pip_dev_requirements.txt
-# pip install -U --distribute --no-site-packages
+# virtualenv --distribute --system-site-packages venv && source venv/bin/activate
+# pip install -U -r ~/.yadr-custom/pip_dev_requirements.txt
 distribute
 nose
 yanc
