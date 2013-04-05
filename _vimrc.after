@@ -142,20 +142,10 @@ cmap w!! w !sudo tee % >/dev/null
 
 " Rename whatever the cursor is on (including references to it)
 "map <leader>r :RopeRename<CR>
-" ==========================================================
-" Pathogen - Allows us to organize our vim plugins
-" ==========================================================
-" Load pathogen with docs for all plugins
-"filetype off
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
 
 " ==========================================================
 " Basic Settings
 " ==========================================================
-"syntax on                     " syntax highlighing
-"filetype on                   " try to detect filetypes
-"filetype plugin indent on     " enable loading indent file for filetype
 "set number                    " Display line numbers
 "set numberwidth=1             " using only 1 column (and 1 space) while possible
 "set background=dark           " We are using dark background in vim

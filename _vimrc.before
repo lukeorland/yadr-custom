@@ -1,3 +1,15 @@
+source ~/.yadr-custom/vim/bundle/vim-pathogen/autoload/pathogen.vim
+"set exrc
+
+" ==========================================================
+" Pathogen - Allows us to organize our vim plugins
+" ==========================================================
+" Load pathogen with docs for all plugins
 filetype off
-set runtimepath+=~/.yadr-custom/vim
-set exrc
+execute pathogen#infect('~/.yadr-custom/vim/bundle/{}')
+
+" ==========================================================
+" Basic Settings
+" ==========================================================
+syntax on                     " syntax highlighing
+filetype plugin indent on     " enable loading indent file for filetype
