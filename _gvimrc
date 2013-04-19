@@ -1,4 +1,4 @@
-set guifont=Andale\ Mono:h12,Menlo\ Regular\ for\ Powerline:h14,DejaVu\ Sans\ Mono:h14
+set guifont=Andale\ Mono:h10,Menlo\ Regular\ for\ Powerline:h12,DejaVu\ Sans\ Mono:h12
 "set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
 set listchars=tab:↦\ ,trail:◦,precedes:˂,extends:˃
 set linespace=3
