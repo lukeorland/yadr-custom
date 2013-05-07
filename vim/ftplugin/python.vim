@@ -2,9 +2,9 @@ setlocal textwidth=79
 setlocal shiftwidth=4
 "setlocal tabstop=4
 setlocal nosmartindent
-setlocal tabstop=8
+setlocal tabstop=4
 setlocal softtabstop=4
-setlocal smarttab
+setlocal nosmarttab
 setlocal expandtab
 setlocal shiftround
 "setlocal autoindent

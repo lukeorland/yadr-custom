@@ -280,14 +280,32 @@ autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 so
 
 " Python
 "au BufRead *.py compiler nose
-au FileType python set omnifunc=pythoncomplete#Complete
-au FileType python setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
-au FileType coffee setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
-au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
+"au FileType python set omnifunc=pythoncomplete#Complete
+"au FileType python setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
+"au FileType python setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4 nosmartindent textwidth=79
+
+"let g:neocomplcache_enable_at_startup = 1
+"if !exists('g:neocomplcache_omni_functions')
+"    let g:neocomplcache_omni_functions = {}
+"endif
+"let g:neocomplcache_omni_functions['python'] = 'jedi#complete'
+"let g:jedi#popup_on_dot = 0
+"let g:neocomplcache_force_omni_patterns.python = '[^. \t]\.\w*'
+
+let g:neocomplcache_enable_at_startup = 1
+if !exists('g:neocomplcache_omni_functions')
+    let g:neocomplcache_omni_functions = {}
+endif
+let g:neocomplcache_omni_functions['python'] = 'jedi#complete'
+let g:jedi#popup_on_dot = 0
+"let g:neocomplcache_force_omni_patterns.python = '[^. \t]\.\w*'
+set completeopt=longest,menuone
+
+"au FileType coffee setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
+"au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
+
 " Don't let pyflakes use the quickfix window
 let g:pyflakes_use_quickfix = 0
-
-
 
 " Add the virtualenv's site-packages to vim path
 if has('python')
@@ -308,4 +326,3 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
     source $VIRTUAL_ENV/.vimrc
 endif
 
-set colorcolumn=79

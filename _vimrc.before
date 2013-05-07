@@ -1,5 +1,5 @@
 source ~/.yadr-custom/vim/bundle/vim-pathogen/autoload/pathogen.vim
-"set exrc
+set runtimepath+=~/.yadr-custom/vim
 
 " ==========================================================
 " Pathogen - Allows us to organize our vim plugins
