@@ -43,3 +43,6 @@
 [submodule "vim/bundle/vim-pandoc"]
 	path = vim/bundle/vim-pandoc
 	url = git@github.com:vim-pandoc/vim-pandoc.git
+[submodule "vim/bundle/Align"]
+	path = vim/bundle/Align
+	url = git@github.com:JLimperg/Align.git
