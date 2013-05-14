@@ -46,3 +46,6 @@
 [submodule "vim/bundle/Align"]
 	path = vim/bundle/Align
 	url = git@github.com:JLimperg/Align.git
+[submodule "vim/bundle/vim-markdown-folding"]
+	path = vim/bundle/vim-markdown-folding
+	url = git@github.com:nelstrom/vim-markdown-folding.git
