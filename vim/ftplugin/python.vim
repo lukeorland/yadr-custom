@@ -9,7 +9,7 @@ setlocal expandtab
 setlocal shiftround
 "setlocal autoindent
 "setlocal backspace=indent,eol,start
-"setlocal colorcolumn=80
+setlocal colorcolumn=79
 "au FileType python setlocal omnifunc=pythoncomplete#Complete
 "autocmd BufWritePost *.py call Flake8()
 compiler nose
