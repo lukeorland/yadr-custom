@@ -327,3 +327,4 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
     source $VIRTUAL_ENV/.vimrc
 endif
 
+let g:ycm_filetype_blacklist = {}
