@@ -176,6 +176,8 @@ autocmd FileType * setlocal colorcolumn=0
 
 
 """ Moving Around/Editing
+"hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+hi CursorLine   cterm=NONE ctermbg=black ctermfg=NONE guibg=black guifg=NONE
 set cursorline              " have a line indicate the cursor location
 set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
